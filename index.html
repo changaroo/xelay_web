@@ -1,169 +1,69 @@
-<html>
-	<head>
-		<link rel="stylesheet" href="jquery.maximage.css" type="text/css" media="screen" charset="utf-8" />
-    <link rel="stylesheet" href="application.css" type="text/css" media="screen" charset="utf-8" />
-
-	</head>
-	<body>
-		<div id="maximage">
-			<img src="backgroundimage.jpg">
-			<img src="backgroundimage2.jpg">
-			<img src="backgroundimage3.jpg">
-			<img src="backgroundimage4.jpg">
-		</div>
-
-		<script src="jquery-1.8.2.min.js"></script>
-		<script src="jquery.cycle.all.js" type="text/javascript" charset="utf-8"></script>
-		<script src="jquery.maximage.js" type="text/javascript" charset="utf-8"></script>
-    <script src="application.js" type="text/javascript" charset="utf-8"></script>
-
-    <div class="main">
-      <div class="logo">
-        <img src="transparent_logo.png" width=320>
-      </div>
-      <div class="nav">
-        <div class="container">
-          <div class="titlebox">
-            XELAY ACUMEN <br>
-            ABOUT <br>
-          </div>
-          <div class="box">
-            Xelay Acumen, Inc was recently founded in 2012 and is a boutique strategy and management consulting firm serving biotechnology, pharmaceutical, and health care provider clients.
-            <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-            >> Visit <a href="about.html" class="box"><b><i>About Us</b></i></a>
-
-          </div>
-        </div>
-        <div class="container">
-          <div class="titlebox">
-            XELAY ACUMEN CONSULTING
-          </div>
-          <div class="box">
-            Our consulting services strive to provide deep functional expertise to fit our clients’ most challenging strategic needs and achieve uniquely extraordinary results in a variety of functional areas:
-            <br><br>
-            • Medical Affairs
-            <br>
-            • Sales and Marketing
-            <br>
-            • Clinical Development
-            <br>
-            • Corporate Development
-            <br>
-            • Translational and Preclinical Research
-            <br><br><br><br><br><br><br><br>
-            >> Visit <a href="consulting.html" class="box"><b><i>Consulting</i></b></a>
-          </div>
-        </div>
-        <div class="container">
-          <div class="titlebox">
-            XELAY ACUMEN <br> ANALYTICS
-          </div>
-          <div class="box">
-            Our analytics services strive to provide solutions to complex business issues through advanced analytical and modeling techniques.  We bring a more scientific and predictive approach to inform improved and faster decision making.  Insights are generated from profoundly enhancing the access, organization, and interpretation of complex information and the quantitative rigor of solutions.
-            <br><br>
-            • Data Analytics<br>
-            • Market Research<br>
-            • Insight Generation<br><br><br>
-            >> Visit <a href="analytics.html" class="box"><b><i>Analytics</i></b></a>
-          </div>
-        </div>
-        <div class="container">
-          <div class="titlebox">
-            XELAY ACUMEN  <br>CAPITAL
-          </div>
-          <div class="box">
-            Xelay Capital is the advisory investment affiliate of Xelay Acumen.  Xelay Capital leverages an experienced team of quantitative oriented investment professionals to achieve its investment objectives.
-            <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-            >> Visit <a href="capital.html" class="box"><b><i>Capital</i></b></a>
-          </div>
-        </div>
-        <div class="container">
-          <div class="titlebox">
-            EXTRAORDINARY<br> RESULTS
-          </div>
-          <div class="box">
-            Our engagements focus exclusively on high value-add for our clients' most critically important issues and challenges.  Learn about our results through recent examples of our work.
-            <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-            >> Visit <a href="results.html" class="box"><b><i>Results</i></b></a>
-          </div>
-        </div>
-      </div>
-
 <!--
-      <ul class="news-feed">
-        <li class="story">
-          <a href="http://www.xelayacumen.com/index" target="_blank">
-            <div>
-              <img src="Xelay_Logo.jpg" alt="a logo" class="thumbnail"/>
-              <p class="heading">
-                Title
-              </p>
-              <p class="hook">
-                Description text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text
-              </p>
-            </div>
-          </a>
-        </li>
-        <li class="story">
-          <a href="http://www.xelayacumen.com/index" target="_blank">
-            <div>
-              <img src="Xelay_Logo.jpg" alt="a logo" class="thumbnail"/>
-              <p class="heading">
-                Title
-              </p>
-              <p class="hook">
-                Description text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text
-              </p>
-            </div>
-          </a>
-        </li>
-        <li class="story">
-          <a href="http://www.xelayacumen.com/index" target="_blank">
-            <div>
-              <img src="Xelay_Logo.jpg" alt="a logo" class="thumbnail"/>
-              <p class="heading">
-                Title
-              </p>
-              <p class="hook">
-                Description text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text
-              </p>
-            </div>
-          </a>
-        </li>
-        <li class="story">
-          <a href="http://www.xelayacumen.com/index" target="_blank">
-            <div>
-              <img src="Xelay_Logo.jpg" alt="a logo" class="thumbnail"/>
-              <p class="heading">
-                Title
-              </p>
-              <p class="hook">
-                Description text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text
-              </p>
-            </div>
-          </a>
-        </li>
-        <li class="story">
-          <a href="http://www.xelayacumen.com/index" target="_blank">
-            <div>
-              <img src="Xelay_Logo.jpg" alt="a logo" class="thumbnail"/>
-              <p class="heading">
-                Title
-              </p>
-              <p class="hook">
-                Description text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text
-              </p>
-            </div>
-          </a>
-        </li>
-      </ul>
->
-
-
-
-      <div class="bottom">
-        <FONT FACE = "VERDANA" SIZE = -1>Xelay Acumen, Inc • <a href="mailto:info@xelayacumen.com">Info@XelayAcumen.com</a> • 415.787.0988 • <a href="careers.html">Careers</a>
+<ul class="news-feed">
+  <li class="story">
+    <a href="http://www.xelayacumen.com/index" target="_blank">
+      <div>
+        <img src="Xelay_Logo.jpg" alt="a logo" class="thumbnail"/>
+        <p class="heading">
+          Title
+        </p>
+        <p class="hook">
+          Description text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text
+        </p>
       </div>
-    </div>
-  </body>
-</html>
+    </a>
+  </li>
+  <li class="story">
+    <a href="http://www.xelayacumen.com/index" target="_blank">
+      <div>
+        <img src="Xelay_Logo.jpg" alt="a logo" class="thumbnail"/>
+        <p class="heading">
+          Title
+        </p>
+        <p class="hook">
+          Description text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text
+        </p>
+      </div>
+    </a>
+  </li>
+  <li class="story">
+    <a href="http://www.xelayacumen.com/index" target="_blank">
+      <div>
+        <img src="Xelay_Logo.jpg" alt="a logo" class="thumbnail"/>
+        <p class="heading">
+          Title
+        </p>
+        <p class="hook">
+          Description text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text
+        </p>
+      </div>
+    </a>
+  </li>
+  <li class="story">
+    <a href="http://www.xelayacumen.com/index" target="_blank">
+      <div>
+        <img src="Xelay_Logo.jpg" alt="a logo" class="thumbnail"/>
+        <p class="heading">
+          Title
+        </p>
+        <p class="hook">
+          Description text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text
+        </p>
+      </div>
+    </a>
+  </li>
+  <li class="story">
+    <a href="http://www.xelayacumen.com/index" target="_blank">
+      <div>
+        <img src="Xelay_Logo.jpg" alt="a logo" class="thumbnail"/>
+        <p class="heading">
+          Title
+        </p>
+        <p class="hook">
+          Description text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text
+        </p>
+      </div>
+    </a>
+  </li>
+</ul>
+-->

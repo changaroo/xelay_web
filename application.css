@@ -20,7 +20,7 @@ a:active {
 
 body, html{
 	margin:  0;
-	padding: 0;
+	padding: 0 0 20px 0;
 }
 
 .main{
@@ -118,10 +118,9 @@ body, html{
 .news-feed .story {
   border: 1px black solid;
   padding: 20px 10px 20px 10px;
-  /* margin: 10px auto 0 auto; */ /* CENTER ALIGNED */
-  margin: 10px 20px 0 20px; /* LEFT ALIGNED */
+  margin: 10px auto 0 auto; /* CENTER ALIGNED */
 
-  max-width: 1000px; /* How large at full screen */
+  max-width: 955px; /* How large at full screen */
   vertical-align: top;
   text-align: left;
   background-color: rgb(255,255,255);
@@ -183,6 +182,7 @@ body, html{
 
 .information.wide {
   width: 500px;
+  margin-left: 293px;
 }
 
 .information a {
@@ -191,6 +191,10 @@ body, html{
 
 .primary-action {
   font-weight: bold;
+}
+
+.primary-action::before {
+  content: ">> Visit "
 }
 
 .primary-action a {
@@ -217,6 +221,7 @@ body, html{
 .information img {
   width: 295px;
   height: 65px;
+  margin-left: 16px;
 }
 
 .information h2 {
@@ -224,30 +229,32 @@ body, html{
   font-weight: bold;
 }
 
-.xelay-acumen {
+.profiles {
   margin-top: 30px;
   list-style-type: none;
   padding-left: 0px;
+  width: 100%;
 }
 
-.xelay-acumen .story {
+.profiles .story {
   border: 1px black solid;
   padding: 20px 10px 20px 10px;
-  /* margin: 10px auto 0 auto; */ /* CENTER ALIGNED */
-  margin: 10px 20px 0 20px; /* LEFT ALIGNED */
+  margin: 10px auto 0 auto; /* CENTER ALIGNED */
+  /* margin: 10px 20px 0 20px; */ /* LEFT ALIGNED */
 
-  max-width: 910px; /* How large at full screen */
+  max-width: 955px; /* How large at full screen */
+  min-height: 195px;
   vertical-align: top;
   text-align: left;
   background-color: rgb(255,255,255);
   background-color: rgba(255,255,255,0.8);
 }
 
-.xelay-acumen .story:first-child {
+.profiles .story:first-child {
   margin-top: 0px;
 }
 
-.xelay-acumen .thumbnail {
+.profiles .thumbnail {
   float: left;
   padding-top: 5px;
   /* This controls max image size */
@@ -255,17 +262,24 @@ body, html{
   max-height: 190px;
 }
 
-
-.xelay-acumen .profilename{
+.profiles .name {
   padding-left: 200px;
   font-size: 24px;
+  font-weight: bold;
+  color: black;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.profiles .title {
+  padding-left: 200px;
   /*font-weight: bold;*/
   color: black;
   margin-top: 0px;
   margin-bottom: 20px;
 }
 
-.xelay-acumen .hook {
+.profiles .hook {
   padding-left: 200px;
   text-decoration: none;
   color: black;
