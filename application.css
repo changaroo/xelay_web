@@ -194,7 +194,7 @@ body, html{
 }
 
 .primary-action::before {
-  content: ">> Visit "
+  content: ">> "
 }
 
 .primary-action a {
@@ -233,6 +233,7 @@ body, html{
   list-style-type: none;
   padding-left: 0px;
   width: 100%;
+  font-family: arial;
 }
 
 .profiles .story {
