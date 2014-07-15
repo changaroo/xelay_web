@@ -189,6 +189,68 @@ body, html{
   color: red;
 }
 
+.information img {
+  width: 295px;
+  height: 65px;
+}
+
+
+.information h2 {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+
+.career_hold{
+  clear: both;
+  padding-top: 10px;
+  color: #000000;
+}
+
+.career {
+  border-style: solid;
+  border-width: 1px;
+  width: 294px;
+  height: 465px;
+  padding: 26px;
+  margin-right: 17px;
+  margin-bottom: 10px;
+  display: inline-block;
+  font-family: arial;
+  vertical-align: top;
+  text-align: left;
+  background-color: rgb(255,255,255);
+  background-color: rgba(255,255,255,0.8);
+}
+
+.career:last-child {
+  margin-right: 0px;
+}
+
+.career.wide {
+  width: 500px;
+  margin-left: 293px;
+}
+
+.career a {
+  color: red;
+}
+
+.career img {
+  width: 500px;
+  height: 110px;
+}
+
+
+.career h2 {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+
+
+
+
 .primary-action {
   font-weight: bold;
 }
@@ -216,16 +278,6 @@ body, html{
 .primary-action a:active {
   text-decoration: underline;
   color:RED;
-}
-
-.information img {
-  width: 295px;
-  height: 65px;
-}
-
-.information h2 {
-  font-size: 16px;
-  font-weight: bold;
 }
 
 .profiles {
