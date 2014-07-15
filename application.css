@@ -163,9 +163,9 @@ body, html{
 .information {
   border-style: solid;
   border-width: 1px;
-  width: 326px;
+  width: 294px;
   height: 465px;
-  padding: 10px;
+  padding: 26px;
   margin-right: 17px;
   margin-bottom: 10px;
   display: inline-block;
@@ -221,7 +221,6 @@ body, html{
 .information img {
   width: 295px;
   height: 65px;
-  margin-left: 16px;
 }
 
 .information h2 {
