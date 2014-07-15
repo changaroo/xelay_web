@@ -18,45 +18,20 @@ a:active {
 	color:#ffffff;
 }
 
-a.box:link {
-	text-decoration: underline;
-	color:RED;
-}
-
-a.box:visited {
-	text-decoration: none;
-	color:RED;
-}
-
-a.box:hover {
-	text-decoration: underline;
-	color:#ffffff;
-}
-a.box:active {
-	text-decoration: underline;
-	color:RED;
-}
-
 body, html{
 	margin:  0;
 	padding: 0;
 }
 
-div.main{
-	height:100%;
-	float:center;
+.main{
 	margin-left:auto;
 	margin-right:auto;
-	padding-top: 0px;
-	padding-right: 0px;
-	padding-bottom: 0px;
-	padding-left: 0px;
-	bottom:0;
+  max-width: 1086px;
 }
 
 .logo {
-	padding-top:10px;
-	padding-left:15px;
+	padding-top: 10px;
+	padding-left: 15px;
   margin-bottom: 20px;
 }
 
@@ -64,29 +39,25 @@ div.main{
   width: 320px;
 }
 
-div.top {
+.top {
 	width:800px;
 	height:70px;
 }
 
-div.smallbox{
-	background: black;
-	width: 50px;
-	height: 55px;
-	color: #ffffff;
-	display: inline;
-	float: left;
-	font-family:verdana;
-	filter:alpha(opacity=82);
-	opacity:0.82;
+.nav {
+  height: 55px;
+  margin-bottom: 20px;
+  border-bottom: 5px solid white;
 }
 
-div.container{
+.nav .container {
 	background: black;
-	width: 180px;
+	width: 214px;
 	height: 55px;
 	color: #ffffff;
-	display: inline-block;
+  float: left;
+  margin-right: 4px;
+  margin-bottom: 10px;
 	font-family:arial;
 	filter:alpha(opacity=82);
 	opacity:0.82;
@@ -95,16 +66,19 @@ div.container{
 	font-size:15px;
 }
 
-div.titlebox{
-	padding:10px;
+.nav .container:last-child {
+  margin-right: 0px;
 }
 
-div.box {
+.nav .titlebox{
+	padding: 10px;
+}
+
+.nav .box {
   display: none;
 	position: absolute;
 	background: black;
-	width: 200px;
-	height: 380px;
+	width: 194px;
 	color: #ffffff;
 	float: left;
 	font-family:arial;
@@ -114,32 +88,25 @@ div.box {
 	font-size:14px;
 }
 
-div.thin_box{
-	width:966px;
-	height:5px;
-	background:white;
-}
-
-div.info_box {
+.nav .info_box {
 	background: blue;
 	width: 500px;
 	height: 300px;
 	filter:alpha(opacity=72);
-	opacity:0.72;
+	opacity: 0.72;
 }
 
-div.bottom {
-	clear:both;
+.bottom {
 	width: 100%;
-	padding-top:10px;
-	text-align:center;
+	padding-top: 10px;
+	text-align: center;
 	filter:alpha(opacity=70);
-	opacity:0.7;
-	background-color:#000000;
-	color:#ffffff;
-	height:20px;
-	position:fixed;
-	bottom:0;
+	opacity: 0.7;
+	background-color: #000000;
+	color: #ffffff;
+	height: 20px;
+	position: fixed;
+	bottom: 0;
 }
 
 .news-feed {
@@ -172,8 +139,6 @@ div.bottom {
   max-height: 100px;
 }
 
-
-
 .news-feed .heading {
   padding-left: 110px;
   font-size: 20px;
@@ -191,23 +156,29 @@ div.bottom {
 }
 
 .information_hold{
+  clear: both;
   padding-top: 10px;
-  text-align: center;
   color: #000000;
 }
 
-.information{
+.information {
   border-style: solid;
   border-width: 1px;
-  width: 297px;
+  width: 326px;
   height: 465px;
   padding: 10px;
+  margin-right: 17px;
+  margin-bottom: 10px;
   display: inline-block;
   font-family: arial;
   vertical-align: top;
   text-align: left;
   background-color: rgb(255,255,255);
   background-color: rgba(255,255,255,0.8);
+}
+
+.information:last-child {
+  margin-right: 0px;
 }
 
 .information.wide {
@@ -218,9 +189,39 @@ div.bottom {
   color: red;
 }
 
+.primary-action {
+  font-weight: bold;
+}
+
+.primary-action a {
+  font-style: italic;
+  text-decoration: underline;
+  color:RED;
+}
+
+.primary-action a:visited {
+  text-decoration: none;
+  color:RED;
+}
+
+.primary-action a:hover {
+  text-decoration: underline;
+  color:#ffffff;
+}
+
+.primary-action a:active {
+  text-decoration: underline;
+  color:RED;
+}
+
 .information img {
-   width: 295px;
+  width: 295px;
   height: 65px;
+}
+
+.information h2 {
+  font-size: 16px;
+  font-weight: bold;
 }
 
 .xelay-acumen {
