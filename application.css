@@ -172,6 +172,8 @@ div.bottom {
   max-height: 100px;
 }
 
+
+
 .news-feed .heading {
   padding-left: 110px;
   font-size: 20px;
@@ -220,4 +222,54 @@ div.bottom {
    width: 295px;
   height: 65px;
 }
+
+.xelay-acumen {
+  margin-top: 30px;
+  list-style-type: none;
+  padding-left: 0px;
+}
+
+.xelay-acumen .story {
+  border: 1px black solid;
+  padding: 20px 10px 20px 10px;
+  /* margin: 10px auto 0 auto; */ /* CENTER ALIGNED */
+  margin: 10px 20px 0 20px; /* LEFT ALIGNED */
+
+  max-width: 910px; /* How large at full screen */
+  vertical-align: top;
+  text-align: left;
+  background-color: rgb(255,255,255);
+  background-color: rgba(255,255,255,0.8);
+}
+
+.xelay-acumen .story:first-child {
+  margin-top: 0px;
+}
+
+.xelay-acumen .thumbnail {
+  float: left;
+  padding-top: 5px;
+  /* This controls max image size */
+  max-width: 190px;
+  max-height: 190px;
+}
+
+
+.xelay-acumen .profilename{
+  padding-left: 200px;
+  font-size: 24px;
+  /*font-weight: bold;*/
+  color: black;
+  margin-top: 0px;
+  margin-bottom: 20px;
+}
+
+.xelay-acumen .hook {
+  padding-left: 200px;
+  text-decoration: none;
+  color: black;
+  margin: 0;
+}
+
+
 
