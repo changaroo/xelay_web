@@ -241,15 +241,14 @@ body, html{
   height: 90px;
 }
 
-
 .career h2 {
   font-size: 16px;
   font-weight: bold;
 }
-
-
-
-
+pdf_font {
+  font-size: 14px;
+  font-weight: bold;
+}
 
 .primary-action {
   font-weight: bold;
