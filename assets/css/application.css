@@ -48,6 +48,8 @@ body, html{
   height: 60px;
   margin-bottom: 20px;
   border-bottom: 5px solid white;
+  position: relative;
+  z-index: 100;
 }
 
 .nav .tab {
@@ -165,7 +167,7 @@ body, html{
   border-width: 1px;
   width: 348px;
   height: 517px;
-  padding: 26px;
+  padding: 0px;
   margin-right: 17px;
   margin-bottom: 10px;
   display: inline-block;
@@ -180,6 +182,20 @@ body, html{
   margin-right: 0px;
 }
 
+.information_hold.four .information {
+  width: 263px;
+  margin-right: 7px;
+}
+
+.information_hold.four .information:last-child {
+  margin-right: 0px;
+}
+
+.information_hold.four .information img {
+
+}
+
+
 .information.wide {
   width: 500px;
   margin-left: 293px;
@@ -190,16 +206,45 @@ body, html{
 }
 
 .information img {
-  width: 295px;
-  height: 65px;
+  width: 92%;
+  padding-top: 4%;
 }
 
+.information h2, .information p, .information img {
+  margin-left: 4%;
+  margin-right: 4%;
+}
 
 .information h2 {
   font-size: 16px;
   font-weight: bold;
 }
 
+.information .carousel .carousel-control {
+  color: darkgray;
+  background-image: none;
+  width: 9%;
+}
+
+.information .carousel .carousel-caption {
+  color: black;
+  text-shadow: none;
+  padding-top: 0px;
+  text-align: left;
+  font-family: arial;
+  left: 10%;
+  right: 10%;
+  z-index: 0;
+}
+
+.information .carousel .carousel-caption .align-top {
+  height: 265px;
+}
+
+.information .carousel .carousel-indicators li {
+  background-color: #888;
+  border-color: #888;
+}
 
 .career_hold{
   clear: both;
