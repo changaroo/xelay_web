@@ -192,10 +192,6 @@ body, html{
   margin-right: 0px;
 }
 
-.information_hold.four .information img {
-
-}
-
 
 .information.wide {
   width: 500px;
@@ -211,7 +207,10 @@ body, html{
   padding-top: 4%;
 }
 
-.information h2, .information p, .information img {
+.information h2,
+.information p,
+.information img,
+.information form {
   margin-left: 4%;
   margin-right: 4%;
 }
