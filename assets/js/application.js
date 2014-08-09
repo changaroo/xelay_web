@@ -1,5 +1,5 @@
 $(document).ready(function() {
-    $('.container').hover(function() {
+    $('.nav .tab').hover(function() {
         $(this).children('.box').slideToggle();
     }, function() {
         $(this).children('.box').slideToggle();

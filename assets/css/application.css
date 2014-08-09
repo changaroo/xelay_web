@@ -45,12 +45,12 @@ body, html{
 }
 
 .nav {
-  height: 55px;
+  height: 60px;
   margin-bottom: 20px;
   border-bottom: 5px solid white;
 }
 
-.nav .container {
+.nav .tab {
 	background: black;
 	width: 214px;
 	height: 55px;
@@ -66,7 +66,7 @@ body, html{
 	font-size:15px;
 }
 
-.nav .container:last-child {
+.nav .tab:last-child {
   margin-right: 0px;
 }
 
@@ -78,7 +78,7 @@ body, html{
   display: none;
 	position: absolute;
 	background: black;
-	width: 194px;
+	width: 214px;
 	color: #ffffff;
 	float: left;
 	font-family:arial;
@@ -104,7 +104,7 @@ body, html{
 	opacity: 0.7;
 	background-color: #000000;
 	color: #ffffff;
-	height: 20px;
+	height: 30px;
 	position: fixed;
 	bottom: 0;
 }
@@ -163,8 +163,8 @@ body, html{
 .information {
   border-style: solid;
   border-width: 1px;
-  width: 294px;
-  height: 465px;
+  width: 348px;
+  height: 517px;
   padding: 26px;
   margin-right: 17px;
   margin-bottom: 10px;
@@ -228,7 +228,7 @@ body, html{
 }
 
 .career.wide {
-  width: 460px;
+  width: 512px;
   margin-left: 293px;
 }
 
