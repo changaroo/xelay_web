@@ -295,7 +295,7 @@ pdf_font {
   margin: 10px auto 0 auto; /* CENTER ALIGNED */
   /* margin: 10px 20px 0 20px; */ /* LEFT ALIGNED */
 
-  max-width: 955px; /* How large at full screen */
+  max-width: 1064px; /* How large at full screen */
   min-height: 195px;
   vertical-align: top;
   text-align: left;
