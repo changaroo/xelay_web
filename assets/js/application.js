@@ -25,4 +25,10 @@ $(function(){
             next: '#arrow_right'
         }
     });
+
+    $('.nailthumb-container').nailthumb({
+        fitDirection:'center center'
+    });
 });
+
+
